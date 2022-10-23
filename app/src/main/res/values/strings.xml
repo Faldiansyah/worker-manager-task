@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Chapter 6 Topic 1</string>
+    <string name="select_blur_amount">Select Blur Amount</string>
+    <string name="a_little_blurred">A Little Blurred</string>
+    <string name="more_blurred">More Blurred</string>
+    <string name="the_most_blurred">The Most Blurred</string>
+    <string name="go">Go</string>
 </resources>

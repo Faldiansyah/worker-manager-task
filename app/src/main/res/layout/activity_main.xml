@@ -20,13 +20,14 @@
             android:layout_height="400dp"
             android:layout_weight="1"
             android:scaleType="fitCenter"
-            android:src="@drawable/fruit" />
+            android:src="@drawable/ayam_jantan"
+            tools:ignore="ContentDescription,InefficientWeight" />
 
         <TextView
             android:id="@+id/filters_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Select Blur Amount"
+            android:text="@string/select_blur_amount"
             android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
         <RadioGroup
@@ -40,19 +41,19 @@
                 android:id="@+id/radio_blur_lv_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="A Little Blurred" />
+                android:text="@string/a_little_blurred" />
 
             <RadioButton
                 android:id="@+id/radio_blur_lv_2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="More Blurred" />
+                android:text="@string/more_blurred" />
 
             <RadioButton
                 android:id="@+id/radio_blur_lv_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="The Most Blurred" />
+                android:text="@string/the_most_blurred" />
         </RadioGroup>
 
         <RadioGroup
@@ -74,7 +75,7 @@
                 android:id="@+id/go_button"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Go" />
+                android:text="@string/go" />
 
         </LinearLayout>
     </LinearLayout>
