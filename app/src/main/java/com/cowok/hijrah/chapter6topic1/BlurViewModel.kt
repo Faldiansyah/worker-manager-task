@@ -48,9 +48,9 @@ class BlurViewModel(application : Application): ViewModel() {
 
         return Uri.Builder()
             .scheme(ContentResolver.SCHEME_ANDROID_RESOURCE)
-            .authority(resources.getResourcePackageName(R.drawable.fruit))
-            .appendPath(resources.getResourceTypeName(R.drawable.fruit))
-            .appendPath(resources.getResourceEntryName(R.drawable.fruit))
+            .authority(resources.getResourcePackageName(R.drawable.ayam_jantan))
+            .appendPath(resources.getResourceTypeName(R.drawable.ayam_jantan))
+            .appendPath(resources.getResourceEntryName(R.drawable.ayam_jantan))
             .build()
     }
 
